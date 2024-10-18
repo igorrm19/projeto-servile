@@ -16,6 +16,14 @@
     "isolatedModules": true,
     "moduleDetection": "force"
   },
+
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+
   "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "references": 
+  [
+    {"path": "./tsconfig.node.json" }
+  ]
 }
